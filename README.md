@@ -52,7 +52,8 @@ We also tried to see the performance of other models (with default hyperparamete
 * One hot encoder
 
 ## The Result
-* Correlation Matrix
+* Correlation Matrix 
+<br />
 ![](correlation_matrix.png) 
 * The Result of Experiment
 * ROC Curve
