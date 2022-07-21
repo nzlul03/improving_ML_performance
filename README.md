@@ -55,21 +55,26 @@ We also tried to see the performance of other models (with default hyperparamete
 * Correlation Matrix 
 
 ![](correlation_matrix.png) 
-_Correlation Matrix_
+
 
 * The Result of Experiment
+
 ![](result.JPG)
-_The Result_
+
 
 * ROC Curve
+
 ![](roc.png)
-_ROC Curve_
+
 
 * Feature Importance
-![](feature_importance.png)
-_Feature Importance_
 
-* The Other Experiment Results
+![](feature_importance.png)
+
+
+## The Other Experiment Results
+
+
 |       ML Algo       |      AUC      |    Accuracy   |
 |---------------------|---------------|---------------|
 | Logistic Regression |     64.01     |     59.32     |
