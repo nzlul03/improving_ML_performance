@@ -17,7 +17,7 @@ Task : Classification
   * imblearn
 
 ## Dataset
-
+The dataset used in this experiment :
 
 ## Steps to Improve Classification Model
 * Feature Engineering
@@ -30,10 +30,34 @@ In the main experiment (with the aim of improving model performance), we perform
 * Decision Tree
 * Random Forest
 
-We also tried to see the performance of other models:
+We also tried to see the performance of other models (with default hyperparameter):
 * Logistic Regression
-* Stochastic Gradient Classifier
 * Support Vector Machine Linear (SVC)
+* Gradient Boosting
+* Ada Boost
+* K-Nearest Neighbors
+* Gaussian Naive Bayes
+* Multinomial Naive Bayes
+* LightGBM
+* XGBoost
+* Multi Layer Perceptron
+
+## Data Cleansing
+* Handling duplicate values
+* Handling missing values
+* Handling outlier
+
+## Feature Encoding and Preprocessing
+* Label encoder
+* One hot encoder
+
+## The Result
+* Correlation Matrix
+![](correlation_matrix.png) 
+* The Result of Experiment
+* ROC Curve
+* Feature Importance
+* The Other Experiment Results
 
 
 
