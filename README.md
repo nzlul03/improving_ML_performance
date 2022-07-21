@@ -17,7 +17,7 @@ Task : Classification
   * imblearn
 
 ## Dataset
-The dataset used in this experiment :
+The dataset used in this experiment : (https://github.com/nzlul03/improving_ML_performance/blob/main/loan_approval.csv)
 
 ## Steps to Improve Classification Model
 * Feature Engineering
@@ -58,9 +58,32 @@ We also tried to see the performance of other models (with default hyperparamete
 _Correlation Matrix_
 
 * The Result of Experiment
+![](result.JPG)
+_The Result_
+
 * ROC Curve
+![](roc.png)
+_ROC Curve_
+
 * Feature Importance
+![](feature_importance.png)
+_Feature Importance_
+
 * The Other Experiment Results
+|       ML Algo       |      AUC      |    Accuracy   |
+|---------------------|---------------|---------------|
+| Logistic Regression |     64.01     |     59.32     |
+|         SVC         |     62.08     |     43.22     |
+|    Decision Tree    |     68.49     |     72.03     |
+|    Random Forest    |     78.72     |     79.66     |
+|  Gradient Boosting  |     79.39     |     78.81     |
+|      Ada Boost      |     75.93     |     77.97     |
+|         KNN         |     46.06     |     49.15     |
+|      GaussianNB     |     64.9      |     64.41     |
+|    MultinomialNB    |     42.31     |     41.53     |
+|        LGBM         |     79.71     |     79.66     |
+|       XGBoost       |     77.85     |     79.66     |
+|         MLP         |     45.99     |     31.36     |
 
 
 
