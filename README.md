@@ -53,8 +53,10 @@ We also tried to see the performance of other models (with default hyperparamete
 
 ## The Result
 * Correlation Matrix 
-<br />
+
 ![](correlation_matrix.png) 
+_Correlation Matrix_
+
 * The Result of Experiment
 * ROC Curve
 * Feature Importance
